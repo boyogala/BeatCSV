@@ -1,0 +1,45 @@
+    属性描述（不一定对..）: Attribute Information (in order):
+        - CRIM     犯罪率；per capita crime rate by town
+        - ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
+        - INDUS    非零售商业用地占比；proportion of non-retail business acres per town
+        - CHAS     是否临Charles河；Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+        - NOX      氮氧化物浓度；nitric oxides concentration (parts per 10 million)
+        - RM       房屋房间数；average number of rooms per dwelling
+        - AGE      房屋年龄；proportion of owner-occupied units built prior to 1940
+        - DIS      和就业中心的距离；weighted distances to five Boston employment centres
+        - RAD      是否容易上高速路；index of accessibility to radial highways
+        - TAX      税率；full-value property-tax rate per $10,000
+        - PTRATIO  学生人数比老师人数；pupil-teacher ratio by town
+        - B        城镇黑人比例计算的统计值；1000(Bk - 0.63)^2 where Bk is the proportion of black people by town
+        - LSTAT    低收入人群比例；% lower status of the population
+        - MEDV     房价中位数；Median value of owner-occupied homes in $1000's
+
+
+CRIM：城镇人均犯罪率。
+
+ZN：住宅用地超过 25000 sq.ft. 的比例。
+
+INDUS：城镇非零售商用土地的比例。
+
+CHAS：查理斯河空变量（如果边界是河流，则为1；否则为0）。
+
+NOX：一氧化氮浓度。
+
+RM：住宅平均房间数。
+
+AGE：1940 年之前建成的自用房屋比例。
+
+DIS：到波士顿五个中心区域的加权距离。
+
+RAD：辐射性公路的接近指数。
+
+TAX：每 10000 美元的全值财产税率。
+
+PTRATIO：城镇师生比例。
+
+B：1000（Bk-0.63）^ 2，其中 Bk 指代城镇中黑人的比例。
+
+LSTAT：人口中地位低下者的比例。
+
+MEDV：自住房的平均房价，以千美元计。
+

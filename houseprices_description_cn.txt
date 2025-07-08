@@ -1,0 +1,523 @@
+MSSubClass: 标识销售中涉及的住宅类型。
+
+        20	单层 1946年及之后的所有样式
+        30	单层 1945年及之前
+        40	带完成阁楼的单层（所有年份）
+        45	1.5层未完工（所有年份）
+        50	1.5层已完工（所有年份）
+        60	双层 1946年及之后
+        70	双层 1945年及之前
+        75	2.5层（所有年份）
+        80	分体式或多层
+        85	分体式门厅
+        90	复式（所有样式和年份）
+       120	单层规划单元开发（PUD）- 1946年及之后
+       150	1.5层PUD（所有年份）
+       160	双层PUD - 1946年及之后
+       180	PUD多层（含分体式/门厅）
+       190	两户改造（所有样式和年份）
+
+MSZoning: 标识销售的总体分区分类。
+
+       A	农业
+       C	商业
+       FV	浮动村庄住宅区
+       I	工业
+       RH	高密度住宅区
+       RL	低密度住宅区
+       RP	低密度公园住宅区 
+       RM	中密度住宅区
+
+LotFrontage: 连接到房产的街道线性英尺数
+
+LotArea: 地块面积（平方英尺）
+
+Street: 房产的道路通达类型
+
+       Grvl	砾石路
+       Pave	铺砌路
+
+Alley: 胡同通达类型
+
+       Grvl	砾石路
+       Pave	铺砌路
+       NA 	无胡同通达
+
+LotShape: 地块形状
+
+       Reg	规则形
+       IR1	轻微不规则
+       IR2	中度不规则
+       IR3	不规则
+
+LandContour: 地块平坦度
+
+       Lvl	接近平坦/水平
+       Bnk	斜坡 - 从街道到建筑快速显著升高
+       HLS	山坡 - 侧向显著倾斜
+       Low	凹陷地
+
+Utilities: 可用公用设施类型
+
+       AllPub	全公共设施（电、气、水、污水）
+       NoSewr	电、气、水（化粪池）
+       NoSeWa	仅电和气
+       ELO	仅电
+
+LotConfig: 地块配置
+
+       Inside	内部地块
+       Corner	角落地块
+       CulDSac	死胡同
+       FR2	两面临街
+       FR3	三面临街
+
+LandSlope: 地块坡度
+
+       Gtl	缓坡
+       Mod	中等坡度
+       Sev	陡坡
+
+Neighborhood: 埃姆斯市内的物理位置
+
+       Blmngtn	布卢明顿高地
+       Blueste	蓝茎区
+       BrDale	布里亚戴尔
+       BrkSide	布鲁克赛德
+       ClearCr	清水溪
+       CollgCr	学院溪
+       Crawfor	克劳福德
+       Edwards	爱德华兹
+       Gilbert	吉尔伯特
+       IDOTRR	爱荷华交通局及铁路
+       MeadowV	草甸村
+       Mitchel	米切尔
+       Names	北埃姆斯
+       NoRidge	诺斯里奇
+       NPkVill	诺斯帕克别墅
+       NridgHt	诺斯里奇高地
+       NWAmes	西北埃姆斯
+       OldTown	老城区
+       SWISU	爱荷华州立大学西南部
+       Sawyer	索耶
+       SawyerW	索耶西
+       Somerst	萨默塞特
+       StoneBr	石溪
+       Timber	林地
+       Veenker	文克尔
+
+Condition1: 邻近条件
+
+       Artery	邻近主干道
+       Feedr	邻近支路
+       Norm	正常
+       RRNn	200英尺内南北铁路
+       RRAn	紧邻南北铁路
+       PosN	邻近积极设施（公园、绿化带等）
+       PosA	紧邻积极设施
+       RRNe	200英尺内东西铁路
+       RRAe	紧邻东西铁路
+
+Condition2: 邻近条件（若存在多个）
+
+       Artery	邻近主干道
+       Feedr	邻近支路
+       Norm	正常
+       RRNn	200英尺内南北铁路
+       RRAn	紧邻南北铁路
+       PosN	邻近积极设施（公园、绿化带等）
+       PosA	紧邻积极设施
+       RRNe	200英尺内东西铁路
+       RRAe	紧邻东西铁路
+
+BldgType: 住宅类型
+
+       1Fam	独栋住宅
+       2FmCon	两户改造（原为独栋）
+       Duplx	复式
+       TwnhsE	联排别墅端单元
+       TwnhsI	联排别墅内部单元
+
+HouseStyle: 住宅风格
+
+       1Story	单层
+       1.5Fin	1.5层（第二层完工）
+       1.5Unf	1.5层（第二层未完工）
+       2Story	双层
+       2.5Fin	2.5层（第二层完工）
+       2.5Unf	2.5层（第二层未完工）
+       SFoyer	分体式门厅
+       SLvl	分体式层
+
+OverallQual: 房屋材料和装修的整体质量评分
+
+       10	非常优秀
+       9	优秀
+       8	很好
+       7	好
+       6	高于平均
+       5	平均
+       4	低于平均
+       3	一般
+       2	差
+       1	非常差
+
+OverallCond: 房屋整体状况评分
+
+       10	非常优秀
+       9	优秀
+       8	很好
+       7	好
+       6	高于平均
+       5	平均
+       4	低于平均
+       3	一般
+       2	差
+       1	非常差
+
+YearBuilt: 原始建造年份
+
+YearRemodAdd: 改建年份（若无改建则同建造年份）
+
+RoofStyle: 屋顶类型
+
+       Flat	平顶
+       Gable	山形顶
+       Gambrel	复斜顶（谷仓式）
+       Hip	四坡顶
+       Mansard	曼萨德顶
+       Shed	棚顶
+
+RoofMatl: 屋顶材料
+
+       ClyTile	黏土或瓦
+       CompShg	标准复合瓦
+       Membran	膜结构
+       Metal	金属
+       Roll	卷材
+       Tar&Grv	砾石沥青
+       WdShake	木瓦
+       WdShngl	木片瓦
+
+Exterior1st: 房屋外墙材料（主）
+
+       AsbShng	石棉瓦
+       AsphShn	沥青瓦
+       BrkComm	普通砖
+       BrkFace	饰面砖
+       CBlock	煤渣砖
+       CemntBd	水泥板
+       HdBoard	硬质板
+       ImStucc	仿灰泥
+       MetalSd	金属板
+       Other	其他
+       Plywood	胶合板
+       PreCast	预制混凝土
+       Stone	石材
+       Stucco	灰泥
+       VinylSd	乙烯基板
+       Wd Sdng	木墙板
+       WdShing	木瓦
+
+Exterior2nd: 房屋外墙材料（次，若多材料）
+
+       AsbShng	石棉瓦
+       AsphShn	沥青瓦
+       BrkComm	普通砖
+       BrkFace	饰面砖
+       CBlock	煤渣砖
+       CemntBd	水泥板
+       HdBoard	硬质板
+       ImStucc	仿灰泥
+       MetalSd	金属板
+       Other	其他
+       Plywood	胶合板
+       PreCast	预制混凝土
+       Stone	石材
+       Stucco	灰泥
+       VinylSd	乙烯基板
+       Wd Sdng	木墙板
+       WdShing	木瓦
+
+MasVnrType: 砖石饰面类型
+
+       BrkCmn	普通砖
+       BrkFace	饰面砖
+       CBlock	煤渣砖
+       None	无
+       Stone	石材
+
+MasVnrArea: 砖石饰面面积（平方英尺）
+
+ExterQual: 外部材料质量评估
+
+       Ex	优秀
+       Gd	良好
+       TA	平均/典型
+       Fa	一般
+       Po	差
+
+ExterCond: 外部材料现状评估
+
+       Ex	优秀
+       Gd	良好
+       TA	平均/典型
+       Fa	一般
+       Po	差
+
+Foundation: 地基类型
+
+       BrkTil	砖与瓦
+       CBlock	煤渣砖
+       PConc	现浇混凝土
+       Slab	板式地基
+       Stone	石材
+       Wood	木材
+
+BsmtQual: 地下室高度评估
+
+       Ex	优秀（100+英寸）
+       Gd	良好（90-99英寸）
+       TA	典型（80-89英寸）
+       Fa	一般（70-79英寸）
+       Po	差（<70英寸）
+       NA	无地下室
+
+BsmtCond: 地下室整体状况评估
+
+       Ex	优秀
+       Gd	良好
+       TA	典型（允许轻微潮湿）
+       Fa	一般（潮湿或轻微开裂/沉降）
+       Po	差（严重开裂/沉降/积水）
+       NA	无地下室
+
+BsmtExposure: 地下室采光（花园层或出口）
+
+       Gd	良好采光
+       Av	平均采光（分体式或门厅通常评平均及以上）
+       Mn	最小采光
+       No	无采光
+       NA	无地下室
+
+BsmtFinType1: 地下室完工区域评级（主）
+
+       GLQ	优质生活区
+       ALQ	平均生活区
+       BLQ	低于平均生活区
+       Rec	普通娱乐室
+       LwQ	低质量
+       Unf	未完工
+       NA	无地下室
+
+BsmtFinSF1: 类型1完工面积（平方英尺）
+
+BsmtFinType2: 地下室完工区域评级（次，若多类型）
+
+       GLQ	优质生活区
+       ALQ	平均生活区
+       BLQ	低于平均生活区
+       Rec	普通娱乐室
+       LwQ	低质量
+       Unf	未完工
+       NA	无地下室
+
+BsmtFinSF2: 类型2完工面积（平方英尺）
+
+BsmtUnfSF: 地下室未完工面积（平方英尺）
+
+TotalBsmtSF: 地下室总面积（平方英尺）
+
+Heating: 供暖类型
+
+       Floor	地板供暖
+       GasA	燃气强制热风
+       GasW	燃气热水/蒸汽
+       Grav	重力供暖
+       OthW	其他热水/蒸汽供暖
+       Wall	壁炉供暖
+
+HeatingQC: 供暖质量和现状
+
+       Ex	优秀
+       Gd	良好
+       TA	平均/典型
+       Fa	一般
+       Po	差
+
+CentralAir: 中央空调
+
+       N	无
+       Y	有
+
+Electrical: 电气系统
+
+       SBrkr	标准断路器和罗马线
+       FuseA	60安以上保险丝盒（平均）
+       FuseF	60安保险丝盒（一般）
+       FuseP	60安保险丝盒（老式线路，差）
+       Mix	混合型
+
+1stFlrSF: 首层面积（平方英尺）
+
+2ndFlrSF: 二层面积（平方英尺）
+
+LowQualFinSF: 低质量完工面积（全楼层）
+
+GrLivArea: 地上生活区总面积（平方英尺）
+
+BsmtFullBath: 地下室全浴室数量
+
+BsmtHalfBath: 地下室半浴室数量
+
+FullBath: 地上全浴室数量
+
+HalfBath: 地上半浴室数量
+
+Bedroom: 地上卧室数量（不含地下室）
+
+Kitchen: 地上厨房数量
+
+KitchenQual: 厨房质量
+
+       Ex	优秀
+       Gd	良好
+       TA	典型/平均
+       Fa	一般
+       Po	差
+
+TotRmsAbvGrd: 地上总房间数（不含浴室）
+
+Functional: 房屋功能性（默认典型，除非有缺陷）
+
+       Typ	典型功能
+       Min1	轻微缺陷1级
+       Min2	轻微缺陷2级
+       Mod	中度缺陷
+       Maj1	重大缺陷1级
+       Maj2	重大缺陷2级
+       Sev	严重损坏
+       Sal	仅可保留
+
+Fireplaces: 壁炉数量
+
+FireplaceQu: 壁炉质量
+
+       Ex	优秀（优质石砌壁炉）
+       Gd	良好（主层石砌壁炉）
+       TA	平均（主层预制壁炉或地下室石砌壁炉）
+       Fa	一般（地下室预制壁炉）
+       Po	差（本·富兰克林炉）
+       NA	无壁炉
+
+GarageType: 车库位置
+
+       2Types	多类型车库
+       Attchd	连体车库
+       Basment	地下室车库
+       BuiltIn	内置车库（通常上方有房间）
+       CarPort	车棚
+       Detchd	独立车库
+       NA	无车库
+
+GarageYrBlt: 车库建造年份
+
+GarageFinish: 车库内部装修
+
+       Fin	已装修
+       RFn	粗装修
+       Unf	未装修
+       NA	无车库
+
+GarageCars: 车库容量（车辆数）
+
+GarageArea: 车库面积（平方英尺）
+
+GarageQual: 车库质量
+
+       Ex	优秀
+       Gd	良好
+       TA	典型/平均
+       Fa	一般
+       Po	差
+       NA	无车库
+
+GarageCond: 车库现状
+
+       Ex	优秀
+       Gd	良好
+       TA	典型/平均
+       Fa	一般
+       Po	差
+       NA	无车库
+
+PavedDrive: 车道铺装
+
+       Y	全铺装
+       P	部分铺装
+       N	土路/砾石
+
+WoodDeckSF: 木制露台面积（平方英尺）
+
+OpenPorchSF: 开放式门廊面积（平方英尺）
+
+EnclosedPorch: 封闭式门廊面积（平方英尺）
+
+3SsnPorch: 三季门廊面积（平方英尺）
+
+ScreenPorch: 纱窗门廊面积（平方英尺）
+
+PoolArea: 泳池面积（平方英尺）
+
+PoolQC: 泳池质量
+
+       Ex	优秀
+       Gd	良好
+       TA	平均/典型
+       Fa	一般
+       NA	无泳池
+
+Fence: 围栏质量
+
+       GdPrv	优质隐私围栏
+       MnPrv	基础隐私围栏
+       GdWo	优质木围栏
+       MnWw	基础铁丝/木围栏
+       NA	无围栏
+
+MiscFeature: 未涵盖的其他功能
+
+       Elev	电梯
+       Gar2	第二车库（未在车库部分描述）
+       Othr	其他
+       Shed	棚屋（>100平方英尺）
+       TenC	网球场
+       NA	无
+
+MiscVal: 其他功能价值（美元）
+
+MoSold: 出售月份（MM）
+
+YrSold: 出售年份（YYYY）
+
+SaleType: 销售类型
+
+       WD 	保修契约 - 常规
+       CWD	保修契约 - 现金
+       VWD	保修契约 - VA贷款
+       New	新建房销售
+       COD	法院官员契约/遗产
+       Con	合同（15%首付常规条款）
+       ConLw	合同（低首付低利率）
+       ConLI	合同（低利率）
+       ConLD	合同（低首付）
+       Oth	其他
+
+SaleCondition: 销售条件
+
+       Normal	正常销售
+       Abnorml	异常销售（交易、法拍、短售）
+       AdjLand	毗邻土地购买
+       Alloca	分配销售（两关联物业独立契约，如带车库的公寓）
+       Family	家庭成员间销售
+       Partial	房屋未完工时评估（关联新房）
