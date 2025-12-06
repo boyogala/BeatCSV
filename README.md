@@ -11,3 +11,10 @@ The series of Beat data of CSV
  https://cobwebscripts.com/tools/yfindler.html
 
  
+
+## Clone it
+
+```bash
+git clone https://github.com/boyogala/BeatCSV.git
+```
+
